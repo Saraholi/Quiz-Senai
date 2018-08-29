@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/azulzinho">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <!-- comentario -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quiz SENAI"
+            android:textSize="38sp"
+            android:textStyle="bold"
+            android:textColor="@color/branco"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/quiz"
+            android:id="@+id/imgQuiz"
+            />
+
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/branco"
+            android:textSize="22sp"
+            android:text="O jogo mais divertido do mundo!"
+            />
+        
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="iniciar"
+            android:background="@color/lilas"
+            android:textColor="@color/branco"
+            android:layout_marginTop="20dp"
+            android:onClick="iniciarJogo"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
